@@ -6,11 +6,26 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1e6d2;
-    color: #222222;
+    color: #333333;
     line-height: 1.6;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
 h1, h2 {
-    font-family: Georgia, serif;
+    margin-bottom: 15px;
+}
+
+mark {
+    background-color: #4cd6a0;
+    color: #222222;
+    padding: 2px 4px;
+    border-radius: 4px;
 }
